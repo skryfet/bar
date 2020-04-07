@@ -8,7 +8,10 @@
     <link rel="stylesheet" href="assets/css/main.css">
 </head>
 
-<body>
+<body onclick="requestFullscreen()">
+    <div class="message">
+        Please, enable fullscreen
+    </div>
     <div class="sphere_">
         <div class="sphere"></div>
     </div>
@@ -17,7 +20,7 @@
         <form onsubmit="enter(this); return false" class="auth">
             <div class="login_">
                 <input type="text" placeholder="Your name?" class="login" spellcheck="false" autocomplete="off">
-                <input type="submit" class="login-btn" value=">">
+                <input type="submit" class="login-btn" value="">
             </div>
         </form>
     </main>
